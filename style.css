@@ -1,0 +1,386 @@
+/* =========================================================
+   SMART COMPLAINT RESOLUTION SYSTEM
+   PROFESSIONAL UI
+   ========================================================= */
+
+
+/* =========================================================
+   MAIN APPLICATION
+   ========================================================= */
+
+.stApp {
+    background:
+        linear-gradient(
+            135deg,
+            #f5f8ff 0%,
+            #eef4ff 45%,
+            #f8f5ff 100%
+        );
+}
+
+
+/* =========================================================
+   HIDE STREAMLIT DEFAULT NAVIGATION
+   ========================================================= */
+
+/* Hide page navigation inside sidebar */
+section[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+
+/* Hide sidebar completely on authentication pages */
+.auth-page ~ section[data-testid="stSidebar"] {
+    display: none !important;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.block-container {
+    max-width: 1150px !important;
+
+    padding-top: 35px !important;
+    padding-bottom: 50px !important;
+}
+
+
+/* =========================================================
+   HERO BANNER
+   ========================================================= */
+
+.hero {
+    background:
+        linear-gradient(
+            135deg,
+            #1d4ed8 0%,
+            #4f46e5 50%,
+            #0891b2 100%
+        );
+
+    border-radius: 24px;
+
+    padding: 42px 35px;
+
+    text-align: center;
+
+    color: white;
+
+    box-shadow:
+        0 15px 35px rgba(37, 99, 235, 0.22);
+
+    margin-bottom: 30px;
+}
+
+
+.hero h1 {
+    font-size: 38px;
+
+    font-weight: 800;
+
+    margin: 0 0 10px 0;
+
+    color: white;
+}
+
+
+.hero p {
+    font-size: 17px;
+
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.92);
+}
+
+
+/* =========================================================
+   SMALL BRAND HEADER
+   ========================================================= */
+
+.brand-title {
+    text-align: center;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    color: #475569;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================================================
+   AUTH CARD
+   ========================================================= */
+
+.auth-card {
+    background: white;
+
+    border-radius: 22px;
+
+    padding: 32px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 12px 35px rgba(15, 23, 42, 0.08);
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================================================
+   SECTION TITLE
+   ========================================================= */
+
+.section-title {
+    color: #172554;
+
+    font-size: 25px;
+
+    font-weight: 750;
+
+    margin-top: 10px;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================================================
+   FEATURE CARDS
+   ========================================================= */
+
+.feature-card {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    min-height: 145px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 7px 20px rgba(15, 23, 42, 0.06);
+
+    text-align: center;
+}
+
+
+.feature-icon {
+    font-size: 32px;
+
+    margin-bottom: 8px;
+}
+
+
+.feature-card h3 {
+    color: #1e293b;
+
+    font-size: 17px;
+
+    margin: 5px 0;
+}
+
+
+.feature-card p {
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   INPUT FIELDS
+   ========================================================= */
+
+.stTextInput label,
+.stTextArea label,
+.stSelectbox label,
+.stRadio label {
+
+    font-weight: 600 !important;
+
+    color: #334155 !important;
+}
+
+
+.stTextInput input,
+.stTextArea textarea {
+
+    border-radius: 10px !important;
+
+    border: 1px solid #cbd5e1 !important;
+
+    background: white !important;
+
+    color: #0f172a !important;
+
+    min-height: 45px;
+}
+
+
+.stTextInput input:focus,
+.stTextArea textarea:focus {
+
+    border-color: #4f46e5 !important;
+
+    box-shadow:
+        0 0 0 2px rgba(79, 70, 229, 0.12) !important;
+}
+
+
+/* =========================================================
+   SELECT BOX
+   ========================================================= */
+
+.stSelectbox > div > div {
+
+    border-radius: 10px !important;
+
+    border-color: #cbd5e1 !important;
+
+    background: white !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.stButton > button {
+
+    border-radius: 11px !important;
+
+    min-height: 45px !important;
+
+    font-weight: 700 !important;
+
+    border: 1px solid #dbeafe !important;
+
+    transition:
+        all 0.2s ease !important;
+}
+
+
+.stButton > button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(37, 99, 235, 0.16);
+}
+
+
+/* =========================================================
+   PRIMARY BUTTON
+   ========================================================= */
+
+button[kind="primary"] {
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #4f46e5
+        ) !important;
+
+    color: white !important;
+
+    border: none !important;
+}
+
+
+/* =========================================================
+   LOGIN TYPE RADIO
+   ========================================================= */
+
+div[role="radiogroup"] {
+
+    background: #f8fafc;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e2e8f0;
+}
+
+
+/* =========================================================
+   INFO MESSAGE
+   ========================================================= */
+
+.stAlert {
+
+    border-radius: 12px !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+hr {
+
+    border: none !important;
+
+    border-top: 1px solid #e2e8f0 !important;
+
+    margin: 25px 0 !important;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+
+    text-align: center;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    margin-top: 35px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #e2e8f0;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .auth-card {
+        padding: 22px;
+    }
+
+}

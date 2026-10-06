@@ -1,0 +1,43 @@
+complaint,category,priority
+Wi-Fi is not working in the computer lab,Technical,Medium
+Unable to login to the college portal,Technical,High
+Computer system is not working,Technical,High
+Projector is not working in classroom,Technical,Medium
+Internet connection is very slow,Technical,Medium
+College website is not opening,Technical,High
+My fee payment failed,Finance,Medium
+I was charged twice for my fee payment,Finance,High
+My scholarship amount has not been received,Finance,High
+I have a problem with my fee receipt,Finance,Medium
+My payment transaction is showing pending,Finance,Medium
+I need clarification about my college fees,Finance,Low
+The classroom fan is not working,Maintenance,Medium
+The classroom AC is not working,Maintenance,Medium
+There is water leakage in the classroom,Maintenance,High
+The classroom lights are not working,Maintenance,Medium
+The college washroom needs cleaning,Maintenance,Low
+The laboratory equipment is damaged,Maintenance,High
+I cannot register for my subject,Academic,High
+I have a problem with my examination registration,Academic,High
+My internal marks are incorrect,Academic,High
+I need information about my timetable,Academic,Low
+I have an issue with my attendance record,Academic,Medium
+I need help regarding my course subjects,Academic,Low
+The hostel room has an electricity problem,Hostel,High
+There is no water in the hostel,Hostel,High
+My hostel room needs cleaning,Hostel,Low
+I have a problem with hostel allocation,Hostel,Medium
+The hostel Wi-Fi is not working,Hostel,Medium
+I lost my hostel room key,Hostel,Medium
+I want to report a security issue,Security,High
+There is no security guard at the entrance,Security,High
+Someone entered the campus without permission,Security,Critical
+I lost my college ID card,Security,Medium
+There is suspicious activity near the college,Security,Critical
+I need help with a safety issue,Security,High
+I have a problem with my bus route,Transport,Medium
+The college bus is arriving late,Transport,Medium
+The college bus did not arrive today,Transport,High
+I want to report a bus driver issue,Transport,High
+My bus pass is not working,Transport,Medium
+I need information about transport timings,Transport,Low
